@@ -15,7 +15,7 @@ public class Control {
 		return r.findAll();
 	}
 	@GetMapping("/tt")
-	public List<Tab> t() {
+	public List<Tab> teja() {
 		return r.findAll();
 	}
 	
