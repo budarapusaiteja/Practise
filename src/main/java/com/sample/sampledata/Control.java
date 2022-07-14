@@ -14,4 +14,9 @@ public class Control {
 	public List<Tab> t() {
 		return r.findAll();
 	}
+	@GetMapping("/tt")
+	public List<Tab> t() {
+		return r.findAll();
+	}
+	
 }
